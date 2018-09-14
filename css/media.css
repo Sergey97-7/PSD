@@ -352,6 +352,15 @@
     .header {
         background-position: center;
     }
+    .prices__price__column {
+        width: 260px;
+    }
+    .prices__price__header {
+        border-right: 1px solid #e6e6e6;
+    }
+    .prices__price__block {
+        border-right: 1px solid #e6e6e6;
+    }
     .footer__form__input .input__text {
         width: 270px;
     }
@@ -370,17 +379,6 @@
         width: 330px;
     }
 } 
-@media screen and (max-width: 487px) {
-    .prices__price__column {
-        width: 260px;
-    }
-    .prices__price__header {
-        border-right: 1px solid #e6e6e6;
-    }
-    .prices__price__block {
-        border-right: 1px solid #e6e6e6;
-    }
-}
 @media screen and (max-width: 413px) {
     .skills__main__text {
         width: 280px;
